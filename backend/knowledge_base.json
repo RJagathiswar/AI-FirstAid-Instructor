@@ -1,0 +1,86 @@
+{
+  "bleeding (minor)": [
+    "Wash your hands if possible and put on disposable gloves if available.",
+    "Apply direct pressure to the wound with a clean cloth for several minutes.",
+    "Clean gently with water and apply an adhesive bandage.",
+    "Seek medical help if bleeding continues or the wound is deep."
+  ],
+  "severe bleeding": [
+    "Call emergency services immediately.",
+    "Apply firm direct pressure to the wound using a clean cloth or dressing.",
+    "If possible, elevate the injured area above heart level unless a fracture is suspected.",
+    "Do not remove soaked dressings; add more layers and maintain pressure."
+  ],
+  "choking (adult or child)": [
+    "If the person can cough or speak, encourage them to cough to expel the object.",
+    "If they cannot breathe, perform abdominal thrusts (Heimlich maneuver) for adults and older children.",
+    "For infants under 1 year, give five back blows followed by five chest thrusts.",
+    "If the person becomes unconscious, call emergency services and begin CPR."
+  ],
+  "heart attack": [
+    "Call emergency services immediately.",
+    "Have the person sit down and try to keep them calm; loosen tight clothing.",
+    "If available and not allergic, give one adult aspirin to chew slowly.",
+    "Monitor breathing and be prepared to perform CPR if they lose consciousness."
+  ],
+  "stroke": [
+    "Call emergency services immediately and note the time symptoms began.",
+    "Ask the person to smile, raise both arms, and repeat a simple sentence to check for weakness or slurred speech.",
+    "Keep the person comfortable and lying down with head slightly elevated.",
+    "Do not give food, drink, or medication unless instructed by professionals."
+  ],
+  "burn (minor)": [
+    "Remove the person from the source of the burn and stop the burning process.",
+    "Cool the burn under running cool (not cold) water for 10\u201320 minutes.",
+    "Do not apply ice, butter, or creams; cover loosely with a sterile non-stick dressing.",
+    "Seek medical help if the burn is large or causes severe pain."
+  ],
+  "fracture (suspected)": [
+    "Do not move the injured limb unnecessarily; support and immobilize with a splint if available.",
+    "Apply ice packs wrapped in cloth to reduce swelling (avoid direct contact with skin).",
+    "If bone is protruding, cover with sterile dressing and seek immediate medical attention.",
+    "Treat for shock and keep the person comfortable until help arrives."
+  ],
+  "snake bite": [
+    "Keep the person calm and still; immobilize the bitten limb and keep it lower than the heart.",
+    "Remove rings, watches or tight clothing from the bitten area due to swelling.",
+    "Do not cut the wound, use a tourniquet, or try to suck out venom.",
+    "Get the person to hospital as quickly as possible."
+  ],
+  "poisoning (ingestion)": [
+    "Call your local poison control center or emergency services immediately.",
+    "If the person is unconscious or having seizures, call emergency services right away.",
+    "Do not induce vomiting unless instructed by medical professionals.",
+    "If the container is available, take it with you to the hospital for identification."
+  ],
+  "drowning (near-drowning)": [
+    "Get the person out of the water safely as soon as possible.",
+    "If not breathing, start CPR immediately and call emergency services.",
+    "If breathing, place in the recovery position and monitor closely.",
+    "Seek medical evaluation even if the person seems to recover."
+  ],
+  "fall from height": [
+    "Call emergency services immediately if the fall is significant or the person is injured.",
+    "Do not move the person if you suspect spinal or head injury unless there's immediate danger.",
+    "Check breathing and circulation; begin CPR if necessary.",
+    "Keep the person warm and monitor for signs of shock until help arrives."
+  ],
+  "slipped on steps / fall on stairs": [
+    "Help the person lie down and assess for pain or bleeding.",
+    "If they complain of severe neck, back, or head pain, do not move them and call emergency services.",
+    "For minor injuries, apply ice to reduce swelling and keep the injured area elevated.",
+    "If there is loss of consciousness, confusion, severe pain, or vomiting, seek immediate medical attention."
+  ],
+  "concussion / head injury": [
+    "Call emergency services if the person is unconscious, vomiting, has seizures, or shows confusion.",
+    "Keep the person still and lying with head raised slightly unless spinal injury is suspected.",
+    "Monitor pupils, breathing, and responsiveness; wake them periodically if advised by professionals.",
+    "Seek medical assessment for any suspected head injury, even if symptoms seem mild."
+  ],
+  "road traffic accident / major trauma": [
+    "Call emergency services immediately and provide the location and nature of injuries.",
+    "Do not move seriously injured persons unless there is an immediate life threat.",
+    "Control bleeding with direct pressure and treat for shock (cover with blanket, keep warm).",
+    "Provide simple reassurance and monitor airway, breathing, and circulation until help arrives."
+  ]
+}
