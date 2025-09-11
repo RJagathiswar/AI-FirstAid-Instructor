@@ -59,7 +59,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white flex items-center justify-center p-6">
       <div className="max-w-3xl w-full bg-white rounded-2xl shadow-lg p-8">
-        <h1 className="text-2xl font-semibold mb-2">AI First Aid Instructor (Offline KB)</h1>
+        <h1 className="text-2xl font-semibold mb-2">AI First Aid Instructor </h1>
         <p className="text-sm text-gray-600 mb-6">Type or speak an emergency (e.g. "choking", "fall from height") and get step-by-step first aid. Voice will speak the instructions.</p>
 
         <form onSubmit={handleSubmit} className="flex gap-3 mb-4">
