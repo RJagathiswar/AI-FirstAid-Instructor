@@ -42,6 +42,7 @@ The application runs without any paid APIs or internet dependency, using a **loc
 
 ![image url](https://github.com/RJagathiswar/AI-FirstAid-Instructor/blob/1130947c62801251aaa44e4f7a49bed636c0c5c2/WhatsApp%20Image%202025-12-29%20at%209.14.09%20PM.jpeg)
 ![image url](https://github.com/RJagathiswar/AI-FirstAid-Instructor/blob/e1dc7169e2a497b3bcba4997696d4ae30ac3fce6/WhatsApp%20Image%202025-12-29%20at%209.16.28%20PM.jpeg)
+![image url](https://github.com/RJagathiswar/AI-FirstAid-Instructor/blob/11ec936fd4f836681f30f4c745e1a64fc8f95330/WhatsApp%20Image%202025-12-29%20at%209.21.57%20PM.jpeg)
 
 ## ⚠️ Disclaimer
 This application is intended **for educational and demonstration purposes only**.  
