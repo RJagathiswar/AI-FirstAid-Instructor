@@ -1,76 +1,81 @@
-# AI First Aid Instructor (Offline KB) - Ready to Run
+# AI First Aid Instructor  
+### Offline, Voice-Enabled Emergency Guidance System
 
-This package is a fully offline demo: **no OpenAI key, no paid API required**. It uses a local knowledge base of first-aid procedures (12+ scenarios) and a voice-enabled React frontend.
+AI First Aid Instructor is a fully offline, voice-enabled emergency assistance system that provides step-by-step first-aid instructions for **12+ real-world emergency scenarios**.  
+The application runs without any paid APIs or internet dependency, using a **local knowledge base** and a **React-based voice interface** for fast, reliable, and privacy-friendly guidance.
 
-## Folder structure
-```
+---
+
+## 🔑 Key Highlights
+- Fully offline operation (no OpenAI or paid APIs required)
+- Covers 12+ common emergency scenarios
+- Voice input and text-based interaction
+- Reads instructions aloud for quick response
+- Lightweight and portable demo setup
+- Ideal for academic demos, expos, and safety training
+
+---
+
+## ✨ Features
+- Offline first-aid knowledge base
+- Voice-enabled emergency input
+- Scenario-based response matching
+- Step-by-step safety instructions
+- Text-to-speech guidance
+- Modern UI using React and Tailwind CSS
+- Lightweight Flask backend
+- Easy scenario expansion via JSON
+- Cross-device access on local network
+- Fast startup and low resource usage
+- Safe and privacy-friendly (no external calls)
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React, Vite, Tailwind CSS  
+- **Backend:** Python, Flask  
+- **Data:** Local JSON Knowledge Base  
+- **Voice:** Web Speech API (browser-based)  
+- **Environment:** Fully offline local execution  
+
+---
+
+## ⚠️ Disclaimer
+This application is intended **for educational and demonstration purposes only**.  
+It is **not a substitute for professional medical advice, diagnosis, or treatment**.
+
+In real emergency situations, users should always contact **certified medical professionals or local emergency services immediately**.  
+The developers are **not responsible for any outcomes** resulting from the use of this application.
+
+## 🚀 Run in 30 Seconds
+Backend:
+python app.py
+
+Frontend:
+npm run dev
+
+
+## 📂 Folder Structure
+```text
 AI-FirstAid-Instructor-offline/
-  backend/
-    app.py
-    knowledge_base.json
-    requirements.txt
-  frontend/
-    index.html
-    package.json
-    vite.config.js
-    postcss.config.cjs
-    tailwind.config.cjs
-    src/
-      main.jsx
-      App.jsx
-      index.css
-      components/
-        VoiceButton.jsx
-  README.md
-```
+├── backend/
+│   ├── app.py
+│   ├── knowledge_base.json
+│   └── requirements.txt
+├── frontend/
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── postcss.config.cjs
+│   ├── tailwind.config.cjs
+│   └── src/
+│       ├── main.jsx
+│       ├── App.jsx
+│       ├── index.css
+│       └── components/
+│           └── VoiceButton.jsx
+└── README.md
 
-## Quick start (Linux / macOS)
 
-1. Open terminal and go to the backend folder:
-```bash
-cd path/to/AI-FirstAid-Instructor-offline/backend
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-python app.py
-```
-Backend will run on `http://0.0.0.0:5000`.
 
-2. In a new terminal start the frontend:
-```bash
-cd path/to/AI-FirstAid-Instructor-offline/frontend
-npm install
-npm run dev
-```
-Open the address Vite prints (usually `http://localhost:5173`).
 
-## Quick start (Windows PowerShell)
-
-1. Backend:
-```powershell
-cd path	o\AI-FirstAid-Instructor-offlineackend
-python -m venv venv
-.env\Scripts\Activate.ps1
-pip install -r requirements.txt
-python app.py
-```
-
-2. Frontend:
-```powershell
-cd path	o\AI-FirstAid-Instructor-offlinerontend
-npm install
-npm run dev
-```
-
-## How to use
-- Open the frontend in a browser (Chrome recommended for SpeechRecognition).
-- Type or click **Speak**, say an emergency (e.g., "slipped on stairs", "fall from height", "choking"), then press **Get Help** or wait — the app will show the matched scenario and read steps aloud.
-- The app uses only the local knowledge base. If you need to expand scenarios, edit `backend/knowledge_base.json`.
-
-## Demo tips for expo
-- Run the backend on your laptop and use `HOST=0.0.0.0` so phones on the same Wi-Fi can access it (ensure firewall allows port 5000).
-- Use Chrome on mobile for speech input.
-- Bring a simple one-page poster with example queries to demonstrate speed and safety.
-
-## Disclaimer
-This app provides simplified first-aid guidance for educational/demo purposes only. In real emergencies always call local emergency services.
