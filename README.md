@@ -58,6 +58,9 @@ python app.py
 Frontend:
 npm run dev
 
+---
+## Deployed link
+https://ai-firstaid-instructor-jagathish.streamlit.app/
 
 ## 📂 Folder Structure
 ```text
